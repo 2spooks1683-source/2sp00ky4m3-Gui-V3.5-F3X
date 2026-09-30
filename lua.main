@@ -12,7 +12,7 @@ MainFrame.Name = "MainFrame"
 MainFrame.Size = UDim2.new(0, 450, 0, 600)
 MainFrame.Position = UDim2.new(0.5, -225, 0.5, -300)
 MainFrame.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
-MainFrame.BorderSizePixel = 2
+MainFrame.BorderSizePixel = 6
 MainFrame.BorderColor3 = Color3.fromRGB(255, 85, 0)
 MainFrame.Active = true
 MainFrame.Draggable = true
@@ -41,7 +41,7 @@ local PickF3XButton = Instance.new("TextButton")
 PickF3XButton.Name = "PickF3XButton"
 PickF3XButton.Size = UDim2.new(0.2, -5, 1, -6)
 PickF3XButton.Position = UDim2.new(0.8, 0, 0, 3)
-PickF3XButton.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+PickF3XButton.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
 PickF3XButton.BorderColor3 = Color3.fromRGB(255, 85, 0)
 PickF3XButton.BorderSizePixel = 1
 PickF3XButton.Text = "Pick\nF3X"
@@ -112,7 +112,7 @@ for index, name in ipairs(buttonNames) do
 	Button.Name = "Button_" .. tostring(index)
 	Button.Text = name
 	Button.Size = UDim2.new(0, 68, 0, 50)
-	Button.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+	Button.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
 	Button.BorderColor3 = Color3.fromRGB(255, 85, 0)
 	Button.BorderSizePixel = 1
 	
