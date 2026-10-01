@@ -83,7 +83,7 @@ GridLayout.SortOrder = Enum.SortOrder.LayoutOrder
 GridLayout.Parent = ButtonContainer
 
 local buttonNames = {
-	"Spooky Scary Skeletons Remix", "Spooky Scary Skeletons Dubstep Remix", "Spooky Scary Skeleton OG", "Electro Sp00k", "Winds Of Fjords", "Gothic Zero Project",
+	"Spooky Scary Skeletons Remix", "Spooky Scary Skeletons Dubstep Remix", "Spooky Scary Skeletons OG", "Electro Sp00k", "Winds Of Fjords", "Gothic Zero Project",
 	"Bilmem Ki", "1x3x5x6 Theme", "1x3x5x6 Theme 2", "Rockfeller", "OOFstatic", "Oyun Portal Rap Song",
 	"The Great Strategy", "Bad Apple", "Diamonds", "Tri Poloski", "illuminati", "Lvbelc5",
 	"Trump Tank Engine", "Bypass TR", "Biji Dalin Nasheed", "Electro Sp00k 2X", "Better Of Alone", "Çağatay Akman",
