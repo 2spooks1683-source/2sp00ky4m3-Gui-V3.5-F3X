@@ -153,7 +153,7 @@ for _, btn in ipairs(ButtonContainer:GetChildren()) do
 			if btn.Text == "Biji Dalin Nasheed" then local ReplicatedStorage = game:GetService("ReplicatedStorage") local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent RequestCommand:InvokeServer(":music 129963257934687 :pitch 0.9 :volume 10") end
 			if btn.Text == "Electro Sp00k 2X" then local ReplicatedStorage = game:GetService("ReplicatedStorage") local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent RequestCommand:InvokeServer(":music 85481339656782 :pitch 0.2 :volume 4") end
 			if btn.Text == "Better Of Alone" then local ReplicatedStorage = game:GetService("ReplicatedStorage") local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent RequestCommand:InvokeServer(":music 87694750844457 :pitch 0.315 :volume 4") end
-			if btn.Text == "Çağatay Akman" then [Script Here] end
+			if btn.Text == "Çağatay Akman" then local ReplicatedStorage = game:GetService("ReplicatedStorage") local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent RequestCommand:InvokeServer(":music 79038120359365 :pitch 0.12 :volume 7") end
 		end)
 	end
 end
