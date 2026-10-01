@@ -126,11 +126,3 @@ for index, name in ipairs(buttonNames) do
 	Button.MouseButton1Click:Connect(function()
 	end)
 end
-
-local button = scrollFrame:FindFirstChild("Spooky Scary Skeletons Remix")
-
-if button then
-	button.Activated:Connect(function()
-		local ReplicatedStorage = game:GetService("ReplicatedStorage") local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent RequestCommand:InvokeServer(":music 71208882022079 :pitch 0.1 :volume 10")
-	end)
-end
