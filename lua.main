@@ -13,7 +13,7 @@ MainFrame.Size = UDim2.new(0, 450, 0, 600)
 MainFrame.Position = UDim2.new(0.5, -225, 0.5, -300)
 MainFrame.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
 MainFrame.BorderSizePixel = 6
-MainFrame.BorderColor3 = Color3.fromRGB(255, 85, 0)
+MainFrame.BorderColor3 = Color3.fromRGB(218, 98, 9)
 MainFrame.Active = true
 MainFrame.Draggable = true
 MainFrame.Parent = ScreenGui
@@ -42,7 +42,7 @@ PickF3XButton.Name = "PickF3XButton"
 PickF3XButton.Size = UDim2.new(0.2, -5, 1, -6)
 PickF3XButton.Position = UDim2.new(0.8, 0, 0, 3)
 PickF3XButton.BackgroundColor3 = Color3.fromRGB(23, 23, 23)
-PickF3XButton.BorderColor3 = Color3.fromRGB(255, 85, 0)
+PickF3XButton.BorderColor3 = Color3.fromRGB(218, 98, 9)
 PickF3XButton.BorderSizePixel = 1
 PickF3XButton.Text = "Pick\nF3X"
 PickF3XButton.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -125,4 +125,35 @@ for index, name in ipairs(buttonNames) do
 
 	Button.MouseButton1Click:Connect(function()
 	end)
+end
+
+for _, btn in ipairs(ButtonContainer:GetChildren()) do
+	if btn:IsA("TextButton") then
+		btn.MouseButton1Click:Connect(function()
+			if btn.Text == "Spooky Scary Skeletons Remix" then local ReplicatedStorage = game:GetService("ReplicatedStorage") local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent RequestCommand:InvokeServer(":music 71208882022079 :pitch 0.1 :volume 10") end
+			if btn.Text == "Spooky Scary Skeletons Dubstep Remix" then local ReplicatedStorage = game:GetService("ReplicatedStorage") local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent RequestCommand:InvokeServer(":music 99493410466120 :pitch 0.082 :volume 7") end
+			if btn.Text == "Spooky Scary Skeletons OG" then local ReplicatedStorage = game:GetService("ReplicatedStorage") local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent RequestCommand:InvokeServer(":music 104570724610975 :pitch 0.175 :volume 10") end
+			if btn.Text == "Electro Sp00k" then local ReplicatedStorage = game:GetService("ReplicatedStorage") local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent RequestCommand:InvokeServer(":music 85481339656782 :pitch 0.1 :volume 4") end
+			if btn.Text == "Winds Of Fjords" then local ReplicatedStorage = game:GetService("ReplicatedStorage") local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent RequestCommand:InvokeServer(":music 134907499311321 :pitch 0.94 :volume 10") end
+			if btn.Text == "Gothic Zero Project" then local ReplicatedStorage = game:GetService("ReplicatedStorage") local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent RequestCommand:InvokeServer(":music 139488665764275 :pitch 1 :volume 10") end
+			if btn.Text == "Bilmem Ki" then local ReplicatedStorage = game:GetService("ReplicatedStorage") local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent RequestCommand:InvokeServer(":music 1844945721 :pitch 0.9 :volume 10") end
+			if btn.Text == "1x3x5x6 Theme" then local ReplicatedStorage = game:GetService("ReplicatedStorage") local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent RequestCommand:InvokeServer(":music 94284750410104 :pitch 0.235 :volume 10") end
+			if btn.Text == "1x3x5x6 Theme 2" then local ReplicatedStorage = game:GetService("ReplicatedStorage") local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent RequestCommand:InvokeServer(":music 113271702672542 :pitch 0.25 :volume 3") end
+			if btn.Text == "Rockfeller" then local ReplicatedStorage = game:GetService("ReplicatedStorage") local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent RequestCommand:InvokeServer(":music 16831104459 :pitch 0.9 :volume 10") end
+			if btn.Text == "OOFstatic" then local ReplicatedStorage = game:GetService("ReplicatedStorage") local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent RequestCommand:InvokeServer(":music 79248747505392 :volume 10") end
+			if btn.Text == "Oyun Portal Rap Song" then local ReplicatedStorage = game:GetService("ReplicatedStorage") local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent RequestCommand:InvokeServer(":music 89819527389696 :pitch 0.12 :volume 10") end
+			if btn.Text == "The Great Strategy" then local ReplicatedStorage = game:GetService("ReplicatedStorage") local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent RequestCommand:InvokeServer(":music 86550558067490 :pitch 0.085 :volume 7") end
+			if btn.Text == "Bad Apple" then local ReplicatedStorage = game:GetService("ReplicatedStorage") local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent RequestCommand:InvokeServer(":music 123572020022002") RequestCommand:InvokeServer(":volume 0") RequestCommand:InvokeServer(":pitch 20") task.wait(0.27) RequestCommand:InvokeServer(":pitch 1") RequestCommand:InvokeServer(":volume 4") end
+			if btn.Text == "Diamonds" then local ReplicatedStorage = game:GetService("ReplicatedStorage") local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent RequestCommand:InvokeServer(":music 1846575559 :pitch 1.1 :volume 10") end
+			if btn.Text == "Tri Poloski" then local ReplicatedStorage = game:GetService("ReplicatedStorage") local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent RequestCommand:InvokeServer(":music 76399771617087") RequestCommand:InvokeServer(":volume 0") RequestCommand:InvokeServer(":pitch 20") task.wait(0.225) RequestCommand:InvokeServer(":pitch 1") RequestCommand:InvokeServer(":volume 10") end
+			if btn.Text == "illuminati" then local ReplicatedStorage = game:GetService("ReplicatedStorage") local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent RequestCommand:InvokeServer(":music 123248050521670 :volume 10") end
+			if btn.Text == "Lvbelc5" then local ReplicatedStorage = game:GetService("ReplicatedStorage") local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent RequestCommand:InvokeServer(":music 112639920708630 :pitch 0.1 :volume 5") end
+			if btn.Text == "Trump Tank Engine" then local ReplicatedStorage = game:GetService("ReplicatedStorage") local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent RequestCommand:InvokeServer(":music 89293274845575 :pitch 0.25 :volume 10") end
+			if btn.Text == "Bypass TR" then local ReplicatedStorage = game:GetService("ReplicatedStorage") local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent RequestCommand:InvokeServer(":music 112836804811863 :pitch 0.1 :volume 10") end
+			if btn.Text == "Biji Dalin Nasheed" then local ReplicatedStorage = game:GetService("ReplicatedStorage") local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent RequestCommand:InvokeServer(":music 129963257934687 :pitch 0.9 :volume 10") end
+			if btn.Text == "Electro Sp00k 2X" then local ReplicatedStorage = game:GetService("ReplicatedStorage") local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent RequestCommand:InvokeServer(":music 85481339656782 :pitch 0.2 :volume 4") end
+			if btn.Text == "Better Of Alone" then local ReplicatedStorage = game:GetService("ReplicatedStorage") local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent RequestCommand:InvokeServer(":music 87694750844457 :pitch 0.315 :volume 4") end
+			if btn.Text == "Çağatay Akman" then [Script Here] end
+		end)
+	end
 end
