@@ -98,7 +98,7 @@ local buttonNames = {
 	"Change Avatar", "Billboard Gui", "Change Name", "Bring All", "Kill All", "Kick All",
 	"FE Dance", "Speed", "God", "Force Field", "Jump Power", "Fire Avatar",
 	"R15", "Respawn All Players", "CMDBar", "CMDBar2", "+18", "R6",
-	"Restore Skybox", "UnDecal Spam", "Sparkles All Parts", "Fire All Parts", "Nuke", "Void",
+	"Old Skybox", "UnDecal Spam", "Sparkles All Parts", "Fire All Parts", "Nuke", "Void",
 	"Doomspire Map", "Crossroads Map", "Prison Life Map", "NDS Map", "Create Spawnpoint", "Create Car",
 	"Nameless Admin", "Infinite Yield", "Secret Service Panel", "F3X Panel", "Time Controller Gui HD Admin Ver.", "Audio Panel HD Admin Ver.",
 	"Savemap", "Lockmap", "Loadmap", "Day", "Night", "F3X Night",
