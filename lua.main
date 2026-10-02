@@ -88,7 +88,7 @@ local buttonNames = {
 	"The Great Strategy", "Bad Apple", "Diamonds", "Tri Poloski", "illuminati", "Lvbelc5",
 	"Trump Tank Engine", "Bypass TR", "Biji Dalin Nasheed", "Electro Sp00k 2X", "Better Of Alone", "Çağatay Akman",
 	"Skybox", "Skybox 2", "Furry Skybox", "Selim Dede Skybox", "1x3x5x6 Skybox", "g00byd0lan Skybox",
-	"g00byd0lan Sing A Song Sky", "Team Amblem Skybox", "RGB Orhan Skybox", "SM666 Skybox", "Skeleton Skybox", "Spins Skybox",
+	"g00byd0lan Sing A Song Sky", "Team Amblem Skybox", "RGB Orhan Skybox", "SM666 Skybox", "Skeleton Skybox", "Restore Skybox",
 	"Ahmet Kaya Skybox", "Lua Amblem Skybox", "Decal Spam", "Headless Horseman Decal Spam", "1x3x5x6 Decal Spam", "Selim Dede Decal Spam",
 	"Furry Decal Spam", "Ahmet Kaya Decal Spam", "Lua Amblem Decal Spam", "SM666 Decal Spam", "g00byd0lan Decal Spam", "Team Amblem Decal Spam",
 	"Particles [On Players]", "Particles [On Parts]", "Particles [On Heads]", "2sp00ky Jumpscare", "T2S Jumpscare", "Selim Dede Jumpscare",
