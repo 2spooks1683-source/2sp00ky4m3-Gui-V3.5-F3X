@@ -219,7 +219,7 @@ for _, btn in ipairs(ButtonContainer:GetChildren()) do
 			if btn.Text == "CMDbar" then local ReplicatedStorage = game:GetService("ReplicatedStorage") local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent RequestCommand:InvokeServer(":cmdbar") end
 			if btn.Text == "CMDbar2" then local ReplicatedStorage = game:GetService("ReplicatedStorage") local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent RequestCommand:InvokeServer(":cmdbar2") end
 			if btn.Text == "+18" then local ReplicatedStorage = game:GetService("ReplicatedStorage") local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent RequestCommand:InvokeServer(":shirt all 76105307663473") RequestCommand:InvokeServer(":pants all 81004702764376") end
-			if btn.Text == "R6" then local ReplicatedStorage = game:GetService("ReplicatedStorage") local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent RequestCommand:InvokeServer("R6") end
+			if btn.Text == "R6" then local ReplicatedStorage = game:GetService("ReplicatedStorage") local RequestCommand = ReplicatedStorage:WaitForChild("HDAdminHDClient").Signals.RequestCommandSilent RequestCommand:InvokeServer(":r6") end
 		end)
 	end
 end
