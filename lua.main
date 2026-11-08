@@ -103,7 +103,7 @@ local buttonNames = {
 	"Nameless Admin", "Infinite Yield", "Secret Service Panel", "1x3x5x6 F3X Gui", "Time Controller Gui HD Admin Ver.", "Audio Panel HD Admin Ver.",
 	"Savemap", "Lockmap", "Loadmap", "John Doe", "Thomas", "F3X Night",
 	"SESEGEL", "Shedletsky", "2015 c00lify", "I LIVE", "Settings [Coming Soon]", "ToadRoast",
-	"Dual illumina", "Skeleton Shield", "Darth Veder Sword", "AK47", "Airstrike", "Tubers93's Whip",
+	"Dual illumina", "Skeleton Scythe", "Darth Veder Sword", "AK47", "Airstrike", "Tubers93's Whip",
 	"Bloxy Cola", "Paint Bucket", "Headless Horseman Head", "NDS Green Balloon", "Hot Potato", "Tornado Summoner"
 }
 
