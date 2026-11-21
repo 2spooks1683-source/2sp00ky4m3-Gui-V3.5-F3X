@@ -102,7 +102,7 @@ local buttonNames = {
 	"Doomspire Map", "Crossroads Map", "Prison Life Map", "NDS Map", "Create Spawnpoint", "Meepcity 4 Realm",
 	"Nameless Admin", "Infinite Yield", "Secret Service Panel", "1x3x5x6 F3X Gui", "Time Controller Gui HD Admin Ver.", "Audio Panel HD Admin Ver.",
 	"Savemap", "Lockmap", "Loadmap", "John Doe", "Thomas", "F3X Night",
-	"SESEGEL", "Shedletsky", "2015 c00lify", "I LIVE", "Settings [Coming Soon]", "ToadRoast",
+	"SESEGEL", "Shedletsky", "2015 c00lify", "I LIVE", "F3X Settings", "ToadRoast",
 	"Dual illumina", "Skeleton Scythe", "Darth Veder Sword", "AK47", "Airstrike", "Tubers93's Whip",
 	"Bloxy Cola", "Paint Bucket", "Headless Horseman Head", "NDS Green Balloon", "Hot Potato", "Tornado Summoner",
 	"Smooth Disco F3X", "Ahmet Kaya", "Barrier For Torso", "Szemtelen Mano", "31 Owowow", "Small Sky"
